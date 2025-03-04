@@ -1,28 +1,46 @@
 body {
+  background-color: #f0f8ff;
   font-family: Arial, sans-serif;
-  background: #f0f8ff;
   text-align: center;
   padding: 50px;
+  margin: 0;
 }
+
 .container {
-  background: #fff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   display: inline-block;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
 h1 {
-  color: #d32f2f;
+  color: #d62828;
 }
+
+p {
+  font-size: 1em;
+  margin: 20px 0;
+  color: #333;
+}
+
 #timer {
   font-size: 1.5em;
   margin: 20px 0;
+  color: #333;
 }
+
+.credit {
+  margin-top: 20px;
+}
+
 .credit a {
-  color: #1976d2;
+  color: #0077cc;
   text-decoration: none;
   font-weight: bold;
 }
+
 .credit a:hover {
   text-decoration: underline;
 }
+
